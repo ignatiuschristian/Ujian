@@ -18,6 +18,5 @@
 <BR>
 <a href="mtkpaket3.php"><h3><font color="white"> PAKET 3</h3></a></font>
 
-<br><a href="soal.php"><font color="white"> Kembali</font></a>
 </body>
 </html>
