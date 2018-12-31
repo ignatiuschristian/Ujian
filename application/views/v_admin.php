@@ -12,9 +12,10 @@
 <hr>
 
 |<a href="User.php">Create User</a>
-|<a href="soal.php">Soal & Kunci Jawaban</a>
+|<a href="soal.php">SOAL</a>
 | <a href="Hasil.php">Lihat Hasil</a>
 |<a href="<?php echo base_url('login/logout'); ?>">Logout</a>
+
 
 <hr>
 

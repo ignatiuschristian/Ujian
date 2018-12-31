@@ -13,7 +13,7 @@
 |<a href="Matematika.php">Matematika</a>
 |<a href="Bahasa_indonesia.php">Bahasa Indonesia</a>
 | <a href="IPA.php">Ilmu Pengetahuan Alam</a>
-|<a href="admin">Kembali</a>
+|<a href="admin"><font color="red"> Kembali</font></a>
 <hr>
 
 
