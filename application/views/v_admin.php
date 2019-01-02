@@ -11,8 +11,8 @@
 <i>Jl.Cempaka biru nomor 220 jakarta selatan.</i>
 <hr>
 
-|<a href="User.php">Create User</a>
-|<a href="soal.php">Soal & Kunci Jawaban</a>
+|<a href="<?php echo base_url() ?>application/views/User.php">Create User</a>
+|<a href="<?php echo base_url() ?>application/views/Soal.php">Soal & Kunci Jawaban</a>
 | <a href="Hasil.php">Lihat Hasil</a>
 |<a href="<?php echo base_url('login/logout'); ?>">Logout</a>
 

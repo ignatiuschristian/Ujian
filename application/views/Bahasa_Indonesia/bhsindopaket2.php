@@ -1,12 +1,12 @@
 <?php
 mysql_connect("localhost","root","");
 mysql_select_db("db_soal");
-    echo "<h3>Latihan Soal Matematika Paket 1</h3>
+    echo "<h3>Latihan Soal Bahasa Indonesia Paket 2</h3>
     <b>Selamat Mengerjakan</b>";
 echo "<div style='width:100%; border: 1px solid #EBEBEB; overflow:scroll;height:700px;'>";
  echo '<table width="100%" border="0">';
 
-        $hasil=mysql_query("select * from tbl_soalmtk1 WHERE aktif='Y' ORDER BY RAND ()");
+        $hasil=mysql_query("select * from tbl_soalbhsindo2 WHERE aktif='Y' ORDER BY RAND ()");
         $jumlah=mysql_num_rows($hasil);
         $urut=0;
         while($row =mysql_fetch_array($hasil))
@@ -19,7 +19,6 @@ echo "<div style='width:100%; border: 1px solid #EBEBEB; overflow:scroll;height:
             $pilihan_d=$row["d"]; 
             
             ?>
-            <form name="form1" method="post" action="jawabmtkpaket1.php">
             <input type="hidden" name="id[]" value=<?php echo $id; ?>>
             <input type="hidden" name="jumlah" value=<?php echo $jumlah; ?>>
             <tr>
@@ -59,10 +58,6 @@ echo "<div style='width:100%; border: 1px solid #EBEBEB; overflow:scroll;height:
         <?php
         }
         ?>
-            <tr>
-                <td>&nbsp;</td>
-                  <td><input type="submit" name="submit" value="Jawab" onclick="return confirm('Apakah Anda yakin dengan jawaban Anda?')"></td>
-            </tr>
             </table>
 </form>
         </p>
