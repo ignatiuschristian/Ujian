@@ -12,13 +12,8 @@
 
 |<a href="Matematika.php">Matematika</a>
 |<a href="Bahasa_indonesia.php">Bahasa Indonesia</a>
-<<<<<<< HEAD
-|<a href="IPA.php">Ilmu Pengetahuan Alam</a>
-|<a href="javascript:window.history.go(-1);">Kembali</a>
-=======
 | <a href="IPA.php">Ilmu Pengetahuan Alam</a>
-|<a href="admin">Kembali</a>
->>>>>>> c2fe8d3202fb6415826ab14701092ee3daa2bf23
+|<a href="admin"><font color="red"> Kembali</font></a>
 <hr>
 
 
